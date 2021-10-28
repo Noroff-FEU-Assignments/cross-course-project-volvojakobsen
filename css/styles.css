@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "orbitron";
+  src: url(fonts/orbitron-regular.ttf);
+}
+
+header {
+  background-color: #49aebd;
+}
+
+body {
+  background-color: #068ca5;
+}
+
+.header-class {
+  display: inline-block;
+}
+
+header nav li {
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: #1240b2;
+  border: #ff6cf9;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 5px;
+  width: 60px;
+  height: 0px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 3px;
+  line-height: 40px;
+  text-shadow: 2px 2px 3px #222;
+  box-shadow: 2px 2px 3px #222;
+}
+
+.header_item {
+  display: inline-block;
+}
+
+.header_item a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+}
+
+.header_item1 {
+  align-items: center;
+  margin-left: 500px;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.top_section {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: ;
+}
+
+.new_release {
+  max-width: 300px;
+}
+
+.game_covers {
+  max-width: 200px;
+}
+
+.home_games {
+  display: flex;
+  padding: 3em;
+}
+
+.home_block1 {
+}
+
+.home_block {
+  display: inline-block;
+  padding: 20px;
+}
+
+nav {
+  text-decoration-color: white;
+}
+
+footer {
+  background-color: #05203e;
+  text-decoration-color: white;
+  color: white;
+}
+
+.footer_logo {
+  max-width: 300px;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr auto;
+}
+
+.wws {
+  size: 100%;
+  max-height: 200px;
+}
+
+.foot a {
+  color: white;
+}
+
+.cta {
+  display: block;
+  background-color: #1240b2;
+  border: #ff6cf9;
+  color: #fff;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  border-radius: 5px;
+  width: 140px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 3px;
+  line-height: 60px;
+  text-shadow: 2px 2px 3px #222;
+  box-shadow: 2px 2px 3px #222;
+}
+
+.cta-big {
+  display: block;
+  background-color: #1240b2;
+  border: #ff6cf9;
+  color: #fff;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  border-radius: 5px;
+  width: 600px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 3px;
+  line-height: 60px;
+  text-shadow: 2px 2px 3px #222;
+  box-shadow: 2px 2px 3px #222;
+}
