@@ -1,13 +1,11 @@
 @font-face {
-  font-family: "orbitron-regular", Staatliches-Regular, sans-serif, Verdana,
-    Geneva, Tahoma, sans-serif;
-  src: url(fonts/orbitron-regular.ttf);
-  src: url(fonts/Staatliches-Regular.ttf);
+  font-family: "orbitron-regular";
+  src: url(../fonts/orbitron-regular.ttf);
 }
 
 @font-face {
-  font-family: Staatliches-Regular;
-  src: url(fonts/Staatliches-Regular.ttf);
+  font-family: staatliches-regular;
+  src: url(../fonts/staatliches-regular.ttf);
 }
 
 header {
@@ -18,7 +16,7 @@ header {
 }
 
 p {
-  font-family: staatliches;
+  font-family: staatliches-regular;
 }
 
 h1,
@@ -122,6 +120,7 @@ header nav li {
   display: block;
   float: right;
   margin-left: 20px;
+  margin-top: 90px;
 }
 
 .assassin {
@@ -206,7 +205,7 @@ footer li {
   display: block;
   background-color: #ff6cf9;
   border: #ff6cf9;
-  color: #4ab31b;
+  color: black;
   font-size: 2.5em;
   text-transform: uppercase;
   border-radius: 50px;
@@ -216,7 +215,6 @@ footer li {
   text-decoration: none;
   letter-spacing: 3px;
   line-height: 60px;
-  text-shadow: 2px 2px 3px #222;
   box-shadow: 2px 2px 3px #222;
 }
 
@@ -309,7 +307,7 @@ footer li {
 
   .forge_block2 {
     display: block;
-    margin-left: 0px;
+    margin-left: 20px;
     float: left;
   }
 
@@ -515,7 +513,7 @@ footer li {
   }
 }
 
-@media (min-width: 400px) and (max-width: 417px) {
+@media (max-width: 417px) {
   header nav li {
     display: inline;
     padding: 0.5em;
