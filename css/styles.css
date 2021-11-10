@@ -31,6 +31,14 @@ h3 {
 
 body {
   background-color: #068ca5;
+  min-height: 100vh;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 1 100%;
 }
 
 header nav li {
@@ -72,6 +80,29 @@ header nav li {
   max-width: 200px;
 }
 
+.about {
+  display: flex;
+  flex: auto;
+}
+
+.form__input {
+  display: block;
+}
+
+.about_text {
+  text-align: center;
+}
+
+.xbox {
+  max-width: 800px;
+}
+
+.re {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
 .top_section {
   display: flex;
   flex-direction: row;
@@ -81,6 +112,24 @@ header nav li {
 
 .new_release {
   max-width: 400px;
+}
+
+.furious {
+  max-width: 400px;
+}
+
+.product_spec {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+}
+
+.furious_2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 90px;
+  margin-bottom: 50px;
 }
 
 .deals {
@@ -139,6 +188,29 @@ header nav li {
   margin-top: 60px;
 }
 
+.item_img {
+  max-width: 200px;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: auto auto;
+  border: 10px;
+  margin-top: 50px;
+  border-style: groove;
+}
+
+.game_block_1 {
+  margin-top: 100px;
+  margin-right: 80px;
+  padding-left: 20px;
+}
+
 nav {
   text-decoration-color: white;
 }
@@ -151,6 +223,11 @@ nav {
   margin-left: 600px;
   margin-bottom: 100px;
   margin-top: 100px;
+}
+
+.faq_1 {
+  text-align: center;
+  border-style: groove;
 }
 
 footer {
@@ -218,6 +295,47 @@ footer li {
   box-shadow: 2px 2px 3px #222;
 }
 
+@media (min-width: 1390px) and (max-width: 1848px) {
+  .items {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media (min-width: 932px) and (max-width: 1389px) {
+  .items {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (min-width: 472px) and (max-width: 931px) {
+  .items {
+    grid-template-columns: auto;
+  }
+}
+
+@media (max-width: 442px) {
+  .welcome__content {
+    font-size: 20px;
+  }
+
+  .logo {
+    max-width: 100px;
+  }
+
+  .items {
+    grid-template-columns: auto;
+  }
+
+  .footer_logo {
+    max-width: 100px;
+  }
+
+  .wws {
+    max-width: 100px;
+  }
+}
+
 @media (min-width: 1300px) and (max-width: 1422px) {
   .top_section {
     display: flex;
@@ -260,6 +378,10 @@ footer li {
     max-width: 300px;
   }
 
+  .xbox {
+    max-width: 600px;
+  }
+
   .deals {
     margin-left: 300px;
     margin-top: 100px;
@@ -288,6 +410,10 @@ footer li {
 
   .new_release {
     max-width: 300px;
+  }
+
+  .xbox {
+    max-width: 500px;
   }
 
   .deals {
@@ -356,8 +482,18 @@ footer li {
     margin-left: 10px;
   }
 
+  .xbox {
+    size: 300px;
+    display: none;
+  }
+
+  .furious {
+    max-width: 250px;
+  }
+
   .new_release {
-    max-width: 300px;
+    max-width: 20%;
+    height: auto;
   }
 
   .deals {
@@ -436,6 +572,32 @@ footer li {
 
   .top_section {
     margin-left: 5px;
+  }
+
+  .xbox {
+    display: none;
+  }
+
+  .furious {
+    max-width: 200px;
+  }
+
+  .product_spec {
+    flex-direction: column;
+  }
+
+  .furious_2 {
+    margin-left: 6px;
+    margin-top: 20px;
+  }
+
+  .re {
+    display: flex;
+    justify-content: center;
+  }
+
+  .re_img {
+    max-width: 400px;
   }
 
   .new_release {
@@ -533,6 +695,31 @@ footer li {
     font-size: 1em;
   }
 
+  .xbox {
+    display: none;
+  }
+
+  .furious {
+    max-width: 200px;
+  }
+
+  .furious_header {
+    font-size: 1em;
+  }
+
+  .product_spec {
+    flex-direction: column;
+  }
+
+  .furious_2 {
+    margin-left: 6px;
+    margin-top: 20px;
+  }
+
+  .re_img {
+    max-width: 350px;
+  }
+
   .top_section {
     margin-left: 0px;
   }
@@ -609,5 +796,45 @@ footer li {
 
   .wws {
     max-height: 80px;
+  }
+}
+
+@media (max-width: 442px) {
+  header nav li {
+    padding: 5px;
+    font-size: 00.7em;
+  }
+
+  .welcome__content {
+    font-size: 0.8em;
+    margin: 0px;
+    margin-left: 5px;
+    align-self: center;
+  }
+
+  .logo {
+    max-width: 100px;
+  }
+
+  .footer_logo {
+    max-width: 100px;
+  }
+
+  .wws {
+    max-width: 100px;
+  }
+
+  footer li {
+    font-size: 1em;
+  }
+
+  .game {
+    grid-template-columns: auto;
+  }
+}
+
+@media (max-width: 354px) {
+  .re_img {
+    max-width: 200px;
   }
 }
