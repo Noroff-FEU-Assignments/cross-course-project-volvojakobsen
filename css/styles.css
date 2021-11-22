@@ -1,0 +1,895 @@
+@font-face {
+  font-family: "orbitron-regular";
+  src: url(../fonts/orbitron-regular.ttf);
+}
+
+@font-face {
+  font-family: staatliches-regular;
+  src: url(../fonts/staatliches-regular.ttf);
+}
+
+header {
+  background-color: #49aebd;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: auto 4fr auto;
+}
+
+p {
+  font-family: staatliches-regular;
+}
+
+h1,
+h2,
+nav {
+  font-family: orbitron;
+}
+
+h3 {
+  font-family: staatliches-regular;
+}
+
+body {
+  background-color: #068ca5;
+  min-height: 100vh;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 1 100%;
+}
+
+header nav li {
+  display: inline-block;
+  float: right;
+  padding: 2em;
+  background-color: #1240b2;
+  border: #ff6cf9;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 3px;
+  line-height: 20px;
+  text-shadow: 2px 2px 3px #222;
+  box-shadow: 2px 2px 3px #ff6cf9;
+  border-radius: 25px;
+}
+
+header nav li:hover {
+  background-color: #ff6cf9;
+  transition: 0.5s;
+  box-shadow: 2px 2px 3px #1240b2;
+}
+
+.header_item {
+  display: inline-block;
+}
+
+.header_item a {
+  color: white;
+  text-decoration: none;
+}
+
+.welcome__content {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.about {
+  display: flex;
+  flex: auto;
+}
+
+.form__input {
+  display: block;
+}
+
+.about_text {
+  text-align: center;
+}
+
+.xbox {
+  max-width: 800px;
+}
+
+.re {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.top_section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 700px;
+}
+
+.new_release {
+  max-width: 400px;
+}
+
+.furious {
+  max-width: 400px;
+}
+
+.product_spec {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+}
+
+.furious_2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+.deals {
+  margin-left: 700px;
+  margin-top: 100px;
+}
+
+.game_covers {
+  max-width: 200px;
+}
+
+.home_games {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-left: 500px;
+}
+
+.home_block1 {
+  display: inline-block;
+  padding: 20px;
+}
+
+.home_block2 {
+  display: block;
+}
+
+.forge {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.forge_block {
+  display: block;
+}
+
+.forge_block2 {
+  display: block;
+  float: right;
+  margin-left: 20px;
+  margin-top: 90px;
+}
+
+.assassin {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.assassin_block {
+  display: block;
+}
+
+.assassin_block2 {
+  display: block;
+  float: right;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+.user_details {
+  display: grid;
+  grid-template-columns: 1 1fr;
+  justify-content: center;
+}
+
+.account_form {
+  margin-top: 100px;
+}
+
+.cart {
+  display: grid;
+  grid-template-columns: 1 1fr;
+  justify-content: center;
+}
+
+.user_details h3 {
+  font-size: 1.5em;
+}
+
+.user_details h2 {
+  text-decoration: underline;
+}
+
+.item_img {
+  max-width: 200px;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: auto auto;
+  border: 10px;
+  margin-top: 50px;
+  border-style: groove;
+}
+
+.game_block_1 {
+  margin-top: 100px;
+  margin-right: 80px;
+  padding-left: 20px;
+}
+
+nav {
+  text-decoration-color: white;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.new_member {
+  margin-left: 600px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.faq_1 {
+  text-align: center;
+  border-style: groove;
+}
+
+footer {
+  background-color: #05203e;
+  text-decoration-color: white;
+  color: white;
+  margin: 0px;
+}
+
+footer li {
+  font-size: 2em;
+}
+
+.footer_logo {
+  max-width: 300px;
+  float: right;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: 2fr auto auto;
+}
+
+.wws {
+  size: 100%;
+  max-height: 200px;
+}
+
+.foot a {
+  color: white;
+}
+
+.cta {
+  display: block;
+  background-color: #1240b2;
+  border: #ff6cf9;
+  color: #fff;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  border-radius: 50px;
+  width: 140px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 3px;
+  line-height: 60px;
+  text-shadow: 3px 3px 3px #f222;
+  box-shadow: 2px 2px 3px #ff6cf9;
+}
+
+.cta:hover {
+  background-color: #ff6cf9;
+  transition: 1s;
+  box-shadow: 2px 2px 3px #1240b2;
+}
+
+.cta-big {
+  display: block;
+  background-color: #ff6cf9;
+  border: #ff6cf9;
+  color: black;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  border-radius: 50px;
+  width: 600px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 3px;
+  line-height: 60px;
+  box-shadow: 2px 2px 3px #222;
+}
+
+.cta-big:hover {
+  background-color: greenyellow;
+  transition: 0.5s;
+}
+
+@media (min-width: 1390px) and (max-width: 1848px) {
+  .items {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media (min-width: 932px) and (max-width: 1389px) {
+  .items {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (min-width: 472px) and (max-width: 931px) {
+  .items {
+    grid-template-columns: auto;
+  }
+}
+
+@media (max-width: 442px) {
+  .welcome__content {
+    font-size: 20px;
+  }
+
+  .logo {
+    max-width: 100px;
+  }
+
+  .items {
+    grid-template-columns: auto;
+  }
+
+  .footer_logo {
+    max-width: 100px;
+  }
+
+  .wws {
+    max-width: 100px;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1422px) {
+  .top_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 400px;
+  }
+
+  .new_release {
+    max-width: 350px;
+  }
+
+  .deals {
+    margin-left: 450px;
+    margin-top: 100px;
+  }
+
+  .home_games {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 300px;
+  }
+
+  .new_member {
+    margin-left: 400px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1299px) {
+  .top_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 300px;
+  }
+
+  .new_release {
+    max-width: 300px;
+  }
+
+  .xbox {
+    max-width: 600px;
+  }
+
+  .deals {
+    margin-left: 300px;
+    margin-top: 100px;
+  }
+
+  .home_games {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 00px;
+  }
+
+  .new_member {
+    margin-left: 200px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 999px) {
+  .top_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 180px;
+  }
+
+  .new_release {
+    max-width: 300px;
+  }
+
+  .xbox {
+    max-width: 500px;
+  }
+
+  .deals {
+    margin-left: 180px;
+    margin-top: 100px;
+  }
+
+  .home_games {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    padding-left: 00px;
+  }
+
+  .forge {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .forge_block2 {
+    display: block;
+    margin-left: 20px;
+    float: left;
+    margin-top: 25px;
+  }
+
+  .assassin {
+    display: block;
+    margin-left: 200px;
+  }
+
+  .assassin_block {
+    display: block;
+  }
+
+  .assassin_block2 {
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+  .new_member {
+    margin-left: 60px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+  body {
+    background-color: #068ca5;
+  }
+
+  header nav li {
+    display: inline;
+    padding: 0.5em;
+    font-size: 1em;
+    width: 60px;
+    height: 10px;
+    letter-spacing: 1px;
+    line-height: 10px;
+  }
+
+  .logo {
+    max-width: 160px;
+  }
+
+  .top_section {
+    margin-left: 10px;
+  }
+
+  .xbox {
+    size: 300px;
+    display: none;
+  }
+
+  .furious {
+    max-width: 250px;
+  }
+
+  .new_release {
+    height: auto;
+  }
+
+  .deals {
+    margin-left: 30px;
+  }
+
+  .home_games {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    padding-left: 00px;
+  }
+
+  .forge {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .forge_block {
+    display: block;
+    float: left;
+  }
+
+  .forge_block2 {
+    display: block;
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+
+  .assassin {
+    display: block;
+    margin-left: 100px;
+  }
+
+  .assassin_block2 {
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+  .new_member {
+    margin-left: 0px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+
+  .cta-big {
+    width: 500px;
+  }
+
+  .footer_logo {
+    max-width: 200px;
+  }
+
+  .wws {
+    max-height: 150px;
+  }
+}
+@media (min-width: 418px) and (max-width: 599px) {
+  header nav li {
+    display: inline;
+    padding: 0.5em;
+    font-size: 1em;
+    width: 60px;
+    height: 10px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    float: inline-end;
+  }
+
+  .logo {
+    max-width: 160px;
+  }
+  .welcome__content {
+    margin-left: 30px;
+    font-size: 1em;
+  }
+
+  .top_section {
+    margin-left: 5px;
+  }
+
+  .xbox {
+    display: none;
+  }
+
+  .furious {
+    max-width: 200px;
+  }
+
+  .product_spec {
+    flex-direction: column;
+  }
+
+  .furious_2 {
+    margin-left: 6px;
+    margin-top: 20px;
+  }
+
+  .re {
+    display: flex;
+    justify-content: center;
+  }
+
+  .re_img {
+    max-width: 400px;
+  }
+
+  .new_release {
+    max-width: 200px;
+  }
+
+  .deals {
+    margin-left: 30px;
+    margin-top: 200px;
+  }
+
+  .home_games {
+    display: block;
+    grid-template-columns: 1fr auto 1fr;
+    padding-left: 00px;
+    padding-top: 50px;
+  }
+
+  .home_block2 {
+    padding-top: 100px;
+  }
+
+  .forge {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 100px;
+  }
+
+  .forge_block {
+    display: block;
+    float: left;
+  }
+
+  .forge_block2 {
+    display: block;
+    float: inline-end;
+    margin-left: 20px;
+    margin-top: 25px;
+  }
+
+  .assassin {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 100px;
+    margin-top: 200px;
+  }
+
+  .assassin_block {
+    float: left;
+  }
+
+  .assassin_block2 {
+    display: block;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .new_member {
+    margin-left: 0px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    font-size: 0.7em;
+  }
+
+  .cta-big {
+    width: 300px;
+    margin-bottom: 0px;
+  }
+  footer li {
+    font-size: 1.3em;
+  }
+
+  .footer_logo {
+    max-width: 140px;
+  }
+
+  .wws {
+    max-height: 80px;
+  }
+}
+
+@media (max-width: 417px) {
+  header nav li {
+    display: inline;
+    padding: 0.5em;
+    font-size: 1em;
+    width: 60px;
+    height: 10px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    float: inline-end;
+  }
+
+  .logo {
+    max-width: 160px;
+  }
+  .welcome__content {
+    margin-left: 30px;
+    font-size: 1em;
+  }
+
+  .xbox {
+    display: none;
+  }
+
+  .furious {
+    max-width: 200px;
+  }
+
+  .furious_header {
+    font-size: 1em;
+  }
+
+  .product_spec {
+    flex-direction: column;
+  }
+
+  .furious_2 {
+    margin-left: 6px;
+    margin-top: 20px;
+  }
+
+  .re_img {
+    max-width: 350px;
+  }
+
+  .top_section {
+    margin-left: 0px;
+    flex-direction: column;
+  }
+
+  .new_release {
+    max-width: 200px;
+  }
+
+  .deals {
+    margin-left: 20px;
+    margin-top: 200px;
+  }
+
+  .home_games {
+    display: block;
+    grid-template-columns: 1fr auto 1fr;
+    padding-left: 00px;
+    padding-top: 50px;
+  }
+
+  .home_block2 {
+    padding-top: 10px;
+  }
+
+  .forge {
+    display: grid;
+    padding-left: 80px;
+  }
+
+  .forge_block {
+    display: block;
+    float: left;
+  }
+
+  .forge_block2 {
+    display: block;
+    float: none;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .assassin {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0px;
+    margin-top: 100px;
+    padding-left: 80px;
+  }
+
+  .assassin_block {
+    float: left;
+  }
+
+  .assassin_block2 {
+    display: block;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+  }
+  .new_member {
+    margin-left: 0px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    font-size: 0.7em;
+  }
+
+  .cta-big {
+    width: 300px;
+    margin-bottom: 0px;
+  }
+  footer li {
+    font-size: 1.3em;
+  }
+
+  .footer_logo {
+    max-width: 140px;
+  }
+
+  .wws {
+    max-height: 80px;
+  }
+}
+
+@media (max-width: 442px) {
+  header nav li {
+    padding: 5px;
+    font-size: 00.7em;
+  }
+
+  .welcome__content {
+    font-size: 0.8em;
+    margin: 0px;
+    margin-left: 5px;
+    align-self: center;
+  }
+
+  .logo {
+    max-width: 100px;
+  }
+
+  .forge {
+    grid-template-columns: auto;
+  }
+
+  .footer_logo {
+    max-width: 100px;
+  }
+
+  .wws {
+    max-width: 100px;
+  }
+
+  footer li {
+    font-size: 1em;
+  }
+
+  .game {
+    grid-template-columns: auto;
+  }
+}
+
+@media (max-width: 354px) {
+  .re_img {
+    max-width: 200px;
+  }
+}

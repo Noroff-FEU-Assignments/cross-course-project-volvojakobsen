@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="user account login page on game hub" />
+    <title>Game hub | account/login</title>
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="header_item">
+        <a href="index.html">
+          <img src="images/gamehub.png" alt="gamehub-logo" class="logo"/>
+          </a>
+    </div>
+    <div class="welcome__content">
+      <h1>Account</h1>
+    </div>
+    <div class="header_item">
+      <nav>
+        <ul>
+          <li><a href="account.html" class="active user">user</a></li>
+          <li><a href="cart-0.html" class="active">Cart</a></li>
+          <li><a href="Games.html">Games</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
+        </ul>
+       </nav>
+    </div>
+    </header>
+    <main>
+      <form action="user-account.html" method="get">
+        <fieldset>
+            <legend>you are not signed in. sign in to view your account</legend>
+            <label for="username">your first name:</label>
+        <input type="text" name="username" class="form__input">
+        <label for="password">your password:</label>
+        <input type="password" name="password" class="form__input">
+        <a href="user-account.html">
+        <input type="submit" value="login">
+        </a>
+      </form>
+        </fieldset>
+        <section class="account_form">
+          <form action="user-account.html" method="get">
+            <fieldset>
+                <legend>New to this site? fill in form bellow and click submit to create a new account</legend>
+                <label for="firstname">your first name:</label>
+            <input type="text" name="firstname" class="form__input">
+            <label for="lastname">your last name:</label>
+            <input type="text" name="lastname" class="form__input">
+            <label for="phone">your phone number:</label>
+            <input type="tel" name="phone" id="phone" class="form__input">
+            <label for="email">your email addres:</label>
+            <input type="email" name="email" id="email" class="form__input">
+            <p>select your gender</p>
+            <input type="radio" id="female" name="gender" value="female" class="form__input">
+            <label for="female">female</label>
+            <input type="radio" id="male" name="gender" value="male" class="form__input">
+            <label for="male">male</label>
+            <input type="radio" id="undisclosed" name="gender" value="undisclosed" class="form__input">
+            <label for="undisclosed">undisclosed</label>
+           <p>...</p>
+            <input type="submit" value="submit">
+          </form>
+            </fieldset>
+        </section>
+    </main>
+    <footer> 
+      <div class="bottom">
+     <nav class="foot">
+      <ul>
+        <li><a href="About.html" class="active">About</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <img src="images/wws.jpg" alt="world_wide_shipping" class="footer_img foot wws"/>
+    <a href="index.html">
+      <img src="images/gamehub.png" alt="footer_logo" class="footer_img footer_logo foot"/>
+      </a>
+      </div>
+  </footer>
+  </body>
+</html>
