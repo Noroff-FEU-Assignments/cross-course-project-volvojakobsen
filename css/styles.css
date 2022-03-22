@@ -336,6 +336,116 @@ footer li {
   transition: 0.5s;
 }
 
+.cta-register {
+  display: block;
+  background-color: #ff6cf9;
+  border: #ff6cf9;
+  color: black;
+  font-size: 2em;
+  text-transform: uppercase;
+  border-radius: 50px;
+  width: 170px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 3px;
+  line-height: 60px;
+  box-shadow: 2px 2px 3px #222;
+}
+
+.cta-register:hover {
+  background-color: greenyellow;
+  transition: 0.5s;
+}
+
+.account-header {
+  text-align: center;
+}
+
+.login_fieldset {
+  background-color: aliceblue;
+}
+
+.login-register {
+  display: flex;
+}
+
+.register-p {
+  margin-left: 20px;
+  padding: 0;
+  height: 25px;
+  margin-bottom: 15px;
+}
+
+.login-btn {
+  height: 25px;
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: none;
+}
+
+.login_h2 {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.login_div {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.line {
+  min-height: 1px;
+  background-color: black;
+  margin-top: 50px;
+}
+
+.register-btn_div {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.areYouNew {
+  margin-top: 50px;
+  margin-right: 60px;
+  font-size: 2rem;
+}
+
+.register-btn {
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.account-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-h1 {
+  text-align: center;
+}
+
+.contact_fieldset {
+  background-color: aliceblue;
+}
+
+.contactForm_section {
+  display: flex;
+  justify-content: center;
+}
+
 @media (min-width: 1390px) and (max-width: 1848px) {
   .items {
     display: grid;
