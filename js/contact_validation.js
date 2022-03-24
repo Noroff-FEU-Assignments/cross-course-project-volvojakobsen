@@ -31,7 +31,7 @@ function validateContactForm(event) {
 
 }
 
-form.addEventListener("submit", validateContactForm)
+form.addEventListener("submit", validateContactForm);
 
 function checkLength(value, len) {
     if (value.trim().length > len) {

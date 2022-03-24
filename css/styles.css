@@ -430,6 +430,7 @@ footer li {
 .register-form {
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .contact-h1 {
@@ -457,7 +458,6 @@ footer li {
 .products-container {
   max-width: 600px;
   display: flex;
-  width: 600px;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 0 auto;

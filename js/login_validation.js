@@ -36,3 +36,14 @@ function checkLength(value, len) {
         return false;
     }
 }
+
+function onSubmit() {
+    setInterval(() => {
+        if (nameError.style.display === "none" && subjectError.style.display === "none" && emailError.style.display === "none" && addressError.style.display === "none") {
+            success.style.display = "block", stopInterval();
+        }
+        else {
+            success.style.display = "none", stopInterval();
+        }
+    }, 100);
+}
