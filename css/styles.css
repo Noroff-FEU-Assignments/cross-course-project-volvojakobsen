@@ -10,9 +10,8 @@
 
 header {
   background-color: #49aebd;
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: auto 4fr auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 p {
@@ -444,6 +443,15 @@ footer li {
 .contactForm_section {
   display: flex;
   justify-content: center;
+}
+
+.register-h1 {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.register-fieldset {
+  background-color: aliceblue;
 }
 
 @media (min-width: 1390px) and (max-width: 1848px) {

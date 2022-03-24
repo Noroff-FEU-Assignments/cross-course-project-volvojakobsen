@@ -6,22 +6,6 @@
     <meta name="description" content="the universe of games" />
     <title>Game hub | Home</title>
     <link href="css/styles.css" rel="stylesheet" />
-    <!-- Hotjar Tracking Code for https://loving-edison-1c4bb8.netlify.app/index.html -->
-    <script>
-      (function (h, o, t, j, a, r) {
-        h.hj =
-          h.hj ||
-          function () {
-            (h.hj.q = h.hj.q || []).push(arguments);
-          };
-        h._hjSettings = { hjid: 2858930, hjsv: 6 };
-        a = o.getElementsByTagName("head")[0];
-        r = o.createElement("script");
-        r.async = 1;
-        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-        a.appendChild(r);
-      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
-    </script>
   </head>
   <body>
     <header>
@@ -31,6 +15,7 @@
       <div class="welcome__content">
         <h1>Home</h1>
       </div>
+      <div class="nav-cart" id="nav-cart">cart <span>0</span></div>
       <div class="header_item">
         <nav>
           <ul>
@@ -60,7 +45,7 @@
           <h3>Pre-order today</h3>
           <p>Only 69.89$</p>
           <p>release date 24.12.21</p>
-          <a href="cart.html" class="cta">Buy</a>
+          <button class="cta purchase">Buy</button>
         </div>
       </section>
       <section class="deals">
@@ -81,7 +66,7 @@
             <p>game of this century.</p>
             <p>>online gameplay.</p>
             <p>only 29.99$</p>
-            <a href="cart.html" class="cta">Buy</a>
+            <button class="cta purchase">Buy</button>
           </div>
         </section>
         <section class="assassin">
@@ -99,7 +84,7 @@
             <p>greatest assassin.</p>
             <p>open world gameplay.</p>
             <p>only 25.99$</p>
-            <a href="cart.html" class="cta">Buy</a>
+            <button class="cta purchase">Buy</button>
           </div>
         </section>
       </section>
@@ -134,5 +119,6 @@
         />
       </div>
     </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>
