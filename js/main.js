@@ -18,8 +18,46 @@ let products = [
         name: "assassin",
         tag: "assassin playbox",
         price: 26,
-        inCart: 0
+        inCart: 0,
     },
+    {
+        name: "ping pong",
+        tag: "ping pong playbox",
+        price: 10,
+        inCart: 0,
+    },
+    {
+        name: "super duper",
+        tag: "super duper playbox",
+        price: 12,
+        inCart: 0,
+    }, {
+        name: "black",
+        tag: "black playbox",
+        price: 33,
+        inCart: 0,
+    }, {
+        name: "space war",
+        tag: "space war playbox",
+        price: 40,
+        inCart: 0,
+    }, {
+        name: "racing",
+        tag: "racing playbox",
+        price: 55,
+        inCart: 0,
+    }, {
+        name: "boxer",
+        tag: "boxer playbox",
+        price: 33,
+        inCart: 0,
+    }, {
+        name: "cyberpunk",
+        tag: "cyberpunk playbox",
+        price: 66,
+        inCart: 0,
+    },
+
 ]
 
 for (let i = 0; i < carts.length; i++) {
@@ -99,8 +137,9 @@ function totalCost(product) {
 function displayCart() {
     let cartItems = localStorage.getItem("productsInCart");
     cartItems = JSON.parse(cartItems);
-    let productContainer = document.querySelector(".products-container");
-    let cartCost = localStorage.getItem("totalCost")
+    let productContainer = document.querySelector(".products");
+    let basketContainer = document.querySelector(".basketContainer");
+    let cartCost = localStorage.getItem("totalCost");
     if (cartItems && productContainer) {
         productContainer.innerHTML = "";
         Object.values(cartItems).map(item => {
@@ -111,13 +150,14 @@ function displayCart() {
             <div class="price">$${item.price},00</div>
             <div class="quantity"><span>${item.inCart}</span></div>
             <div class="total">$${item.inCart * item.price},00</div>
-            `
+            `;
         });
-        productContainer.innerHTML += `
+        basketContainer.innerHTML += `
         <div class="basketTotalContainer">
         <h4 class="basketTotalTitle">basket total</h4>
         <h4 class="basketTotal">$${cartCost}</h4>
-        `
+        </div>
+        `;
     }
 }
 
