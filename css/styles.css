@@ -454,6 +454,26 @@ footer li {
   background-color: aliceblue;
 }
 
+.products-container {
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.products-header {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-bottom: 4px solid lightgray;
+  margin: 0 auto;
+}
+
 @media (min-width: 1390px) and (max-width: 1848px) {
   .items {
     display: grid;

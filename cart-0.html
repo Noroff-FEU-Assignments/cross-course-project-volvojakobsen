@@ -33,6 +33,7 @@
       <div class="welcome__content">
         <h1>Cart</h1>
       </div>
+      <div class="nav-cart" id="nav-cart">cart <span>0</span></div>
       <div class="header_item">
         <nav>
           <ul>
@@ -45,11 +46,15 @@
       </div>
     </header>
     <main>
-      <section class="cart">
-        <div>
-          <h1>You have 0 items in your cart</h1>
+      <div class="products-container">
+        <div class="product-header">
+          <h5 class="product-title">PRODUCT</h5>
+          <h5 class="price">PRICE</h5>
+          <h5 class="quantity">QUANTITY</h5>
+          <h5 class="total">TOTAL</h5>
         </div>
-      </section>
+        <div class="products"></div>
+      </div>
     </main>
     <footer>
       <div class="bottom">
@@ -74,5 +79,6 @@
         </a>
       </div>
     </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>
