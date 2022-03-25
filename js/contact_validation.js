@@ -27,6 +27,9 @@ function validateContactForm(event) {
     else {
         message_error.style.display = "block";
     }
+    if (checkLength(fullname.value, 1) && validateEmail(email.value) && checkLength(message.value, 4)) {
+        alert("the message was successfully submited!")
+    }
 
 
 }

@@ -144,12 +144,8 @@ function displayCart() {
         productContainer.innerHTML = "";
         Object.values(cartItems).map(item => {
             productContainer.innerHTML += `
-            <div class="products">
-            <span>${item.name}</span>
-            </div>
-            <div class="price">$${item.price},00</div>
-            <div class="quantity"><span>${item.inCart}</span></div>
-            <div class="total">$${item.inCart * item.price},00</div>
+            <div class="product">
+            ${item.name}    price $${item.price},00  quantity: ${item.inCart} total price: $${item.inCart * item.price},00</div>
             `;
         });
         basketContainer.innerHTML += `

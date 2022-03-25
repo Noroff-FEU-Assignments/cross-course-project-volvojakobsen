@@ -38,6 +38,9 @@ function validateContactForm(event) {
     else {
         password_error.style.display = "block";
     }
+    if (checkLength(fullname.value, 3) && validateEmail(email.value) && checkLength(username.value, 4) && checkLength(password.value, 7)) {
+        document.forms["register_form"].submit();
+    }
 
 
 }

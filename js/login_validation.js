@@ -10,7 +10,6 @@ const password_error = document.querySelector("#password_error")
 
 function validateLoginForm(event) {
     event.preventDefault();
-    console.log("hellu")
     if (checkLength(username.value, 4)) {
         username_error.style.display = "none";
     }
@@ -22,6 +21,9 @@ function validateLoginForm(event) {
     }
     else {
         password_error.style.display = "block";
+    }
+    if (checkLength(username.value, 4) && checkLength(password.value, 7)) {
+        document.forms["loginform"].submit();
     }
 
 }
@@ -35,15 +37,4 @@ function checkLength(value, len) {
     else {
         return false;
     }
-}
-
-function onSubmit() {
-    setInterval(() => {
-        if (nameError.style.display === "none" && subjectError.style.display === "none" && emailError.style.display === "none" && addressError.style.display === "none") {
-            success.style.display = "block", stopInterval();
-        }
-        else {
-            success.style.display = "none", stopInterval();
-        }
-    }, 100);
 }

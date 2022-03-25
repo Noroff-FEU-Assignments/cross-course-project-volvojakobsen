@@ -19,13 +19,14 @@
         <h1>Account</h1>
       </div>
       <a href="cart-0.html"
-        ><div class="nav-cart" id="nav-cart">cart items:<span>0</span></div></a
+        ><div class="nav-cart" id="nav-cart">
+          <ion-icon name="cart-outline"></ion-icon> <span>0</span> items
+        </div></a
       >
       <div class="header_item">
         <nav>
           <ul>
             <li><a href="account.html" class="active user">user</a></li>
-            <li><a href="cart-0.html" class="active">Cart</a></li>
             <li><a href="Games.html">Games</a></li>
             <li><a href="index.html" class="active">Home</a></li>
           </ul>
@@ -38,7 +39,7 @@
       </h1>
       <h2 class="login_h2">Login</h2>
       <div class="account-content">
-        <form id="loginform">
+        <form action="user-account.html" id="loginform" method="get">
           <div class="login_div">
             <fieldset class="login_fieldset">
               <label for="username">User-Name:</label>
@@ -94,5 +95,7 @@
     </footer>
     <script src="js/main.js"></script>
     <script src="js/login_validation.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
 </html>

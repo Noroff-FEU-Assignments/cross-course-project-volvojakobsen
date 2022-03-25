@@ -455,6 +455,11 @@ footer li {
   background-color: aliceblue;
 }
 
+.nav-cart {
+  margin-top: 50px;
+  font-size: 2rem;
+}
+/*
 .products-container {
   max-width: 600px;
   display: flex;
@@ -523,6 +528,41 @@ footer li {
   width: 10%;
 }
 
+*/
+
+.products-container {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+  flex-wrap: wrap;
+}
+
+.product {
+  display: flex;
+  margin-left: 200px;
+  margin-bottom: 15px;
+}
+
+.price {
+  margin-left: 50px;
+}
+
+.quantity {
+  margin-left: 50px;
+}
+
+.total {
+  margin-left: 50px;
+}
+
+.basketTotalContainer {
+  display: flex;
+  justify-content: center;
+}
+.basketTotal {
+  margin-left: 20px;
+}
 @media (min-width: 1390px) and (max-width: 1848px) {
   .items {
     display: grid;
