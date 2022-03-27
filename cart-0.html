@@ -55,6 +55,37 @@
         </div>
         <div class="basketContainer"></div>
       </div>
+      <h4 class="checkout-h4">Checkout</h4>
+      <div class="complete-purchase">
+        <form action="order.html" method="get">
+          <fieldset>
+            <legend>click send to complete purchase.</legend>
+            <label for="alternate address"
+              >alternate shipping address: <br />(if blank the shippment will be
+              sent to your default home address)</label
+            >
+            <input type="text" name="alternate address" class="form__input" />
+            <br />
+            <h5>payment by credit/debit card</h5>
+            <label for="card-number">Card number:</label>
+            <br />
+            <input type="text" />
+            <br />
+            <label for="expiration date">Expiration date:</label>
+            <br />
+            <input type="text" />
+            <br />
+            <label for="cvc">cvc</label>
+            <br />
+            <input type="text" />
+            <br />
+            <br />
+            <a href="order.html">
+              <input type="submit" value="send" />
+            </a>
+          </fieldset>
+        </form>
+      </div>
     </main>
     <footer>
       <div class="bottom">

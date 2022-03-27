@@ -533,7 +533,7 @@ footer li {
 .products-container {
   margin-top: 70px;
   display: flex;
-  justify-content: center;
+  margin-left: 30%;
   max-width: 800px;
   flex-wrap: wrap;
 }
@@ -563,6 +563,18 @@ footer li {
 .basketTotal {
   margin-left: 20px;
 }
+
+.complete-purchase {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.checkout-h4 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
 @media (min-width: 1390px) and (max-width: 1848px) {
   .items {
     display: grid;
