@@ -15,7 +15,7 @@ const parseId = querystring.replace(/\D/g, "");
 console.log(id);
 console.log(parseId);
 
-const url2 = "http://volvojakobsen.shop/wp-json/wc/store/products/" + parseId;
+const url2 = "https://volvojakobsen.shop/wp-json/wc/store/products/" + parseId;
 console.log(url2)
 
 function displayError(message = "unknown error") {

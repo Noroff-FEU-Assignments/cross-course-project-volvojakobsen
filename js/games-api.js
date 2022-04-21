@@ -1,4 +1,4 @@
-const url = "http://volvojakobsen.shop/wp-json/wc/store/products?consumer_key=ck_cfe7d5899cff9ba316101163754fbaf4066da10c&consumer_secret=cs_603e95715d484c920cc42cd63209f66f0e08aa3c";
+const url = "https://volvojakobsen.shop/wp-json/wc/store/products?consumer_key=ck_cfe7d5899cff9ba316101163754fbaf4066da10c&consumer_secret=cs_603e95715d484c920cc42cd63209f66f0e08aa3c";
 
 const results = document.querySelector(".game");
 
