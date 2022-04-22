@@ -21,7 +21,7 @@ async function apiCall() {
             console.log(json[i].id)
 
 
-            results.innerHTML += `<div class= game_block_1><h2>${json[i].name}</h2> <a href="details.html?id${json[i].id}"> <img src = "${json[i].images[0].src}" class= item_img /></a>  <h3>price: ${json[i].prices.price}</h3> <button class="cta purchase">Buy</button></div>`;
+            results.innerHTML += `<div class= game_block_1><h2>${json[i].categories.name}</h2> <a href="details.html?id${json[i].id}"> <img src = "${json[i].images[0].src}" class= item_img /></a>  <h3>price: ${json[i].prices.price}</h3> <button class="cta purchase">Buy</button></div>`;
         }
 
 

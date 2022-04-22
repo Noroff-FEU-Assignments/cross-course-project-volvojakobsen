@@ -117,6 +117,8 @@ header nav li:hover {
 
 .new_release {
   max-width: 400px;
+  margin-right: 20px;
+  margin-bottom: 50px;
 }
 
 .furious {
@@ -150,11 +152,13 @@ header nav li:hover {
   display: grid;
   grid-template-columns: auto auto;
   padding-left: 500px;
+  margin-bottom: 80px;
 }
 
 .home_block1 {
   display: inline-block;
   padding: 20px;
+
 }
 
 .home_block2 {
