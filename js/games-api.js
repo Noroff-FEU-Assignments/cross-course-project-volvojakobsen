@@ -11,14 +11,14 @@ async function apiCall() {
     try {
         const response = await fetch(url);
         const json = await response.json();
-        console.log(json);
+        //console.log(json);
 
         results.innerHTML = "";
 
 
 
         for (let i = 0; i < json.length; i++) {
-            console.log(json[i].id)
+            //console.log(json[i].id)
 
 
             results.innerHTML += `<div class= game_block_1><h2>${json[i].name}</h2> <a href="details.html?id${json[i].id}"> <img src = "${json[i].images[0].src}" class= item_img /></a>  <h3>price: ${json[i].prices.price}</h3> <button class="cta purchase">Buy</button></div>`;

@@ -11,7 +11,7 @@ async function apiCall() {
     try {
         const response = await fetch(url3);
         const json = await response.json();
-        console.log(json);
+        //console.log(json);
 
         result.innerHTML = "";
 
@@ -25,7 +25,7 @@ async function apiCall() {
             if (json[i].categories[0].name !== "New release") {
                 continue;
             }
-            console.log(json[i].categories[0].name)
+            //console.log(json[i].categories[0].name)
 
 
 
