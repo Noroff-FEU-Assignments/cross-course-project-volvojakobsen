@@ -12,9 +12,9 @@ The games are fetched from a wordpress rest api. javascript is also used for the
 
 # Built with
 
-html5
-css
-javascript
+html5,
+css,
+javascript,
 wordpress rest api
 
 # Running
