@@ -19,7 +19,7 @@ The games are fetched from a wordpress rest api. javascript is also used for the
 
 # Running
 
-[Here is a link that will take you to the deployed site:](https://loving-edison-1c4bb8.netlify.app/index.html)
+[Here is a link that will take you to the deployed site](https://loving-edison-1c4bb8.netlify.app/index.html)
 
 # Contact
 
